@@ -1,9 +1,15 @@
 # API-INTEGRATION-AND-DATA-VISUALIZATION
+
 NAME:Gaddam NISHIKA REDDY 
+
 INTERN ID: CT04DN1601
+
 DOMAIN: PYTHON PROGRAMMINGN
+
 DURATION: 4 WEEKS
+
 MENTOR: NEELA SANTHU
+
 DESCRIPTION:
 The Weather Data Visualization Dashboard is a Python project I created during my internship at CodTech. The main goal of this project is to collect and display weather forecast data in a way that is easy to understand. This dashboard helps users check the upcoming weather, like temperature and humidity, for any city they choose. It uses the OpenWeatherMap API to get real-time weather information and then shows this data using line graphs created with Matplotlib and Seaborn, two popular Python libraries for visualization.
 The project starts by setting up the city name, unit of measurement (like Celsius), and the API key from OpenWeather. The program then sends a request to the API and receives a 5-day forecast. The forecast includes data every 3 hours, such as the temperature and humidity for that time. If there’s a problem, like a wrong city name or an issue with the API key, the program catches the error and shows a helpful message instead of crashing. This makes the tool more reliable and user-friendly.
